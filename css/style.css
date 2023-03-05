@@ -1,0 +1,239 @@
+/* common css start */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #ccc;
+}
+a>i{
+    padding: 5px;
+    margin-left: 10px;
+    transition: 0.4s;
+}
+a>i:hover{
+     margin-left: 20px;
+}
+body{
+    font-family: 'Open Sans',
+    sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* common css start */
+/* header area start */
+header{
+    background: url(../img/banner.jpg) no-repeat center #ccc;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+.heading_area{
+    position: relative;
+}
+.logo{
+    margin-top: 55px;
+}
+.logo img{
+    width: 90px;
+    height: 40px;
+}
+.banner_area{
+    display: flex;
+}
+.banner_content {
+    margin-top: 30vh;
+}
+.bannertext h2,
+.bannertext p {
+    color: #fff;
+}
+.bannertext h2{
+    font-size: 60px;
+}
+.bannertext p{
+    font-size: 13px;
+}
+.mobile{
+    position: absolute;
+    min-height: 300px;
+    top: 170px;
+    right: 110px;
+}
+.mobile img{
+    max-height: 100vh;
+
+}
+/* header area end */
+/* about styling start */
+.about_content h2{
+    font-size: 35px;
+    color: #222626;
+    padding-bottom: 10px;
+}
+.about_content p {
+    font-size: 14px;
+    color: #959595;
+    margin-right: 20px;
+}
+/* about styling end */
+/* gallery styling start */
+.gallery .grid_item h2{
+   font-size: 30px;
+   color: #fff;
+}
+.gallery .grid_item p{
+    font-size: 13px;
+     color: #fff;
+}
+.gallery .grid_item a{
+    text-decoration: none;
+    font-size: 13px;
+     color: #fff;
+     font-weight: bold;
+}
+.gallery .grid_item_1{
+    background-color: #f5989d;
+}
+.gallery .grid_item_2{
+    background-color: #615f7d;
+}
+.gallery .grid_item_3{
+    background: url(../img/grid_1.jpg) no-repeat center;
+    background-size: cover;
+}
+.gallery .grid_item_4{
+    background: url(../img/grid_2.jpg) no-repeat center;
+    background-size: cover;
+}
+.gallery .grid_item_5{
+    background-color: #82ca9c;
+}
+/* gallery styling end */
+
+.featchers .container > h2{
+    font-size: 35px;
+}
+/* featchers area styling start */
+/* home babnner area 2 styling start */
+.featchers p{
+    font-size: 14px;
+    color: #959595;
+}
+.featchers .featchers_head{
+    color: #67676d;
+    font-weight: bold;
+}
+/* featchers area styling start */
+.home_banner_2{
+    background: url(../img/banner_2.jpg) no-repeat center; 
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+}
+.home_banner_2 .container{
+    margin: auto;
+}
+.home_banner_2 h2 ,p,a{
+    color: #fff;
+}
+.home_banner_2 h2{
+    font-size: 60px;
+}
+.home_banner_2 p{
+    font-size: 13px;
+}
+.home_banner_2 a{
+    font-size: 13px;
+    font-weight: bold;
+}
+.home_f_2{
+    background-color: #82ca9c;
+}
+.home_f_2 .container>h2 {
+    color: #fff;
+    font-size: 35px;
+}
+
+.home_f_2 p {
+    font-size: 14px;
+    color: #fff;
+}
+
+.home_f_2 .featchers_head {
+    color: #fff;
+    font-weight: bold;
+}
+/* home babnner area 2 styling end */
+/* service plan area styleng start */
+.plan{
+    background: #F6F7FA;
+}
+.plan span{
+    font-size: 13px;
+    background-color: #E1E1E1;
+}
+.plan h2{
+    font-size: 30px;
+    color: #2e3b4e;
+}
+.plan p{
+    font-size: 14px;
+    color: #2e3b4e;
+}
+.plan_a{
+    transition: all  linear .3s;
+    border-radius: 4px;
+}
+.plan_a:hover {
+    background: #FFFFFF;
+    box-shadow: 0 0 20px #ccc;
+}
+.plan_a:hover span{
+    background: #BD8BBF;
+}
+.plan_a button{
+    background: #81C99B;
+    color: #fff;
+}
+.plan_a .b-icons i{
+    color: #C6C6C6;
+}
+/* service plan area styleng end */
+/* footer plan area styleng start */
+footer{
+    background: #192331;
+}
+footer p,
+footer li,
+footer li a{
+    font-size: 13px;
+}
+footer .input-box{
+    position: relative;
+}
+footer input{
+    height: 60px;
+}
+footer .input_box{
+    position: relative;
+}
+footer .submit_btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+footer .submit_btn i{
+    color: #fff;
+    font-size: 60px;
+    background-color: #81C99B;
+    border-radius: 3px;
+}
+/* footer plan area styleng start */

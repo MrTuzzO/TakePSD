@@ -1,0 +1,26 @@
+@media(max-width:992px){
+    .mobile{
+        display: none;
+    
+    }
+}
+@media(max-width:576px){
+    .bannertext h2 {
+        font-size: 40px;
+    }
+    .about_content h2 {
+        font-size: 30px;
+    }
+    .gallery .grid_item h2 {
+        font-size: 20px;
+    }
+    .featchers .container>h2 {
+        font-size: 30px;
+    }
+    .home_banner_2 h2 {
+        font-size: 40px;
+    }
+    .home_f_2 .container>h2 {
+        font-size: 30px;
+    }
+}
